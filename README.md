@@ -57,54 +57,13 @@ Regularization Method: L1 regularization forces some weights to zero, but it may
 Comparison: Comparing my model to others, Raini's model performs best with higher precision (67.52%) and recall (61.67%) likely due to a stronger dropout rate (0.3/0.2) and the Adam optimizer. Samuel's model has good accuracy (66%) but lower precision and recall, possibly due to Nadam and L2 regularization. My model's accuracy is 62%, but lower precision (52%) and recall (39%) suggest that my choices of L1 regularization, RMSprop, and a lower dropout rate (0.1) might be limiting performance.
 
 
-Summary Table: 
+ 
 
+## Summary Table
 
-Train Instance
-Engineer Name
-Regularizer
-Optimizer
-Early Stopping
-Dropout Rate
-Accuracy
-F1 Score
-Recall
-Precision
-2797
-Raini Benaiah
-Drop Out
-Adam
-Yes
-First Layer = 0.3
-Second layer = 0.2
-66.00
-64.00
-61.67
-67.52
+| Train Instance | Engineer Name       | Regularizer | Optimizer | Early Stopping | Dropout Rate                 | Accuracy | F1 Score | Recall | Precision |
+|---------------|--------------------|-------------|-----------|---------------|------------------------------|----------|----------|--------|-----------|
+| 2797          | Raini Benaiah      | Drop Out    | Adam      | Yes           | First Layer = 0.3 <br> Second Layer = 0.2 | 66.00    | 64.00    | 61.67  | 67.52     |
+|               | Christian Mutabazi | L1          | RMSprop   | Yes           | First Layer = 0.1 <br> Second Layer = 0.1 | 62.00    | 53.00    | 54.00  | 52.00     |
+|               | Samuel Dushime     | L2          | Nadam     | Yes           | None                         | 66.00    | 47.00    | 39.00  | 58.00     |
 
-
-Christian Mutabazi
-L1
-RMSprop
-Yes
-First Layer =0.1
-Second Layer = 0.1
-0.62
-0.53
-0.54
-0.52
-
-
-Samuel Dushime
-L2
-Nadam
-Yes
-None 
-0.66
-0.47
-0.39
-0.58
-
-
-     Presentation Video Link
-       recorded video
