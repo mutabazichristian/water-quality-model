@@ -89,7 +89,7 @@ Comparison: Comparing my model to others, Raini's model performs best with highe
 | Train Instance | Engineer Name       | Regularizer | Optimizer | Early Stopping | Dropout Rate                 | Accuracy | F1 Score | Recall | Precision |
 |---------------|--------------------|-------------|-----------|---------------|------------------------------|----------|----------|--------|-----------|
 | 2797          | Raini Benaiah      | Drop Out    | Adam      | Yes           | First Layer = 0.3 <br> Second Layer = 0.2 | 66.00    | 64.00    | 61.67  | 67.52     |
-|               | Christian Mutabazi | L1          | RMSprop   | Yes           | First Layer = 0.1 <br> Second Layer = 0.1 | 62.00    | 53.00    | 54.00  | 52.00     |
-|               | Samuel Dushime     | L2          | Nadam     | Yes           | None                         | 66.00    | 47.00    | 39.00  | 58.00     |
+|               | Christian Mutabazi | L1          | RMSprop   | Yes           | First Layer = 0.1 <br> Second Layer = 0.1 | 66.92    | 45.34    | 35.15  | 63.82     |
+|               | Samuel Dushime     | L2          | Nadam     | Yes           | None                         | 65.83    | 64.96    | 66.20  | 63.76     |
 
 [Recorded Video Link](https://drive.google.com/file/d/12OySjKpvxvW-K5jqXQr-6f_Pl0SFYf7v/view?usp=sharing)
