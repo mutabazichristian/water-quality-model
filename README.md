@@ -34,7 +34,7 @@ Christian’s model struggles to correctly classify positives (low recall) and h
 
 Samuel’s model uses Nadam which is a variation of Adam that incorporates Nesterov Accelerated Gradient (NAG), which can improve convergence, however it might have  caused instability, leading to low validation accuracy (47%).
 
-Raini’s model performs better in accuracy, precision, and overall generalization.
+Based on the F1 Score, Samwel's model has the best meaning it has the best overal balance while Christian's model has the lowest F1 score meaning ut's struggles with misclassification.
 
 Challenges 
 
@@ -92,4 +92,4 @@ Comparison: Comparing my model to others, Raini's model performs best with highe
 |               | Christian Mutabazi | L1          | RMSprop   | Yes           | First Layer = 0.1 <br> Second Layer = 0.1 | 66.92    | 45.34    | 35.15  | 63.82     |
 |               | Samuel Dushime     | L2          | Nadam     | Yes           | None                         | 65.83    | 64.96    | 66.20  | 63.76     |
 
-[Recorded Video Link](https://drive.google.com/file/d/12OySjKpvxvW-K5jqXQr-6f_Pl0SFYf7v/view?usp=sharing)
+[Recorded Video Link](https://drive.google.com/file/d/1vA8Am-8TUZ-_qZucoT194zK4BonJ1oxW/view?usp=sharing)
