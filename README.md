@@ -28,11 +28,11 @@ Validation loss: 0.6011
 
 Raini’s  model performs significantly better than Christian’s in accuracy, recall, and generalization.
 
-Christian’s model uses  L1 regularization which might have caused the low training accuracy (62%), making it harder for the model to learn.
+Christian’s model uses  L1 regularization which might have caused the low F1 score (45%), making it harder for the model to learn.
 
 Christian’s model struggles to correctly classify positives (low recall) and has lower overall performance.
 
-Samuel’s model uses Nadam which is a variation of Adam that incorporates Nesterov Accelerated Gradient (NAG), which can improve convergence, however it might have  caused instability, leading to low validation accuracy (47%).
+Samuel’s model uses Nadam which is a variation of Adam that incorporates Nesterov Accelerated Gradient (NAG), which can improve convergence, however it might have  caused instability, leading to slightly low validation accuracy.
 
 Based on the F1 Score, Samwel's model has the best meaning it has the best overal balance while Christian's model has the lowest F1 score meaning ut's struggles with misclassification.
 
